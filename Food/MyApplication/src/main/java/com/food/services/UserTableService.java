@@ -53,7 +53,7 @@ public class UserTableService {
 		try {
 			userDetails = userTableRepository.findById(id).get();
 		} catch (Exception exception) {
-			System.out.println("Exception caught in validateMyUser Method :" + exception);
+			System.out.println("Exception caught in FetchUserName Method :" + exception);
 		}
 		return userDetails;
 	}
